@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Friendship Calculator</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">                               <!-- linking to external css -->
+<link rel="icon" href="favicon.png">                                    <!-- tab icon "K"  -->
+
+
+</head>
+<body>
+
+
+<div>                                                        <!--calculator layout -->
+   <h1>FRIENDSHIP CALCULATOR</h1> <br>
+
+   <label for="name"><b>Your Name</b></label>
+   <input type="text" placeholder="Enter Your Name" name="" id=name required>  <br>
+
+   <label for="lname"><b>Friend`s name </b></label>
+   <input type="text" placeholder="Enter Your Friend`s Name" name="" id=lname required>
+
+   <button class="btn" onclick="checkfriendsper()"> Calculate </button>
+<hr>
+
+<input type="text"  placeholder="RESULT"  id="friendsvalue" readonly>                       <!-- Displaying result in % -->
+
+</div>
+
+<script src="javascript.js"></script>                                    <!-- linking to javascript file -->
+
+                                                           
+
+</body>
+
+</html>
